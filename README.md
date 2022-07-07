@@ -9,4 +9,5 @@ uvicorn main:app --reload
 You will need to create a .env file in the root directory with the following variables set:
 
 secret = [secret_key] #your desired secret key for the hashing algorithm
+
 algorithm = [algorithm] #define the type of hashing algorithm used e.g HS256
